@@ -1,8 +1,8 @@
-package com.lagou.edu.dao.impl;
+package com.ray.payment.dao.impl;
 
-import com.lagou.edu.pojo.Account;
-import com.lagou.edu.dao.AccountDao;
-import com.lagou.edu.utils.ConnectionUtils;
+import com.ray.payment.pojo.Account;
+import com.ray.payment.dao.AccountDao;
+import com.ray.payment.utils.ConnectionUtils;
 import com.ray.mySpring.annotation.Autowired;
 import com.ray.mySpring.annotation.Component;
 

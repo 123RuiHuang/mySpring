@@ -1,4 +1,4 @@
-package com.lagou.edu.service;
+package com.ray.payment.service;
 
 import com.ray.mySpring.annotation.Transactional;
 

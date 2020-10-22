@@ -1,4 +1,4 @@
-package com.lagou.edu.pojo;
+package com.ray.payment.pojo;
 
 /**
  * @author Rui Huang

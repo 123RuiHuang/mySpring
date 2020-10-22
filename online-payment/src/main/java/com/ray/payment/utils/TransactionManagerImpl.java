@@ -1,4 +1,4 @@
-package com.lagou.edu.utils;
+package com.ray.payment.utils;
 
 import com.ray.mySpring.TransactionManager.TransactionManager;
 import com.ray.mySpring.annotation.Autowired;

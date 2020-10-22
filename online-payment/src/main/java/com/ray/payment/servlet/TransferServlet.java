@@ -1,8 +1,8 @@
-package com.lagou.edu.servlet;
+package com.ray.payment.servlet;
 
-import com.lagou.edu.utils.JsonUtils;
-import com.lagou.edu.pojo.Result;
-import com.lagou.edu.service.TransferService;
+import com.ray.payment.utils.JsonUtils;
+import com.ray.payment.pojo.Result;
+import com.ray.payment.service.TransferService;
 import com.ray.mySpring.Factory.BeanFactory;
 
 import javax.servlet.ServletException;
@@ -19,8 +19,8 @@ import java.io.IOException;
 public class TransferServlet extends HttpServlet {
 
     BeanFactory beanFactory = BeanFactory.build();
-    BeanFactory newBeanFactory = beanFactory.init("com.lagou.edu");
-    private TransferService transferService = (TransferService) newBeanFactory.getBean("com.lagou.edu.service.TransferService");
+    BeanFactory newBeanFactory = beanFactory.init("com.ray.payment");
+    private TransferService transferService = (TransferService) newBeanFactory.getBean("com.ray.payment.service.TransferService");
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

@@ -1,6 +1,6 @@
-package com.lagou.edu.dao;
+package com.ray.payment.dao;
 
-import com.lagou.edu.pojo.Account;
+import com.ray.payment.pojo.Account;
 
 /**
  * @author 应癫
