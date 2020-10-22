@@ -4,7 +4,7 @@
 
 mySpring is a self-implemented mini Spring framework. Both IOC and AOP are supported.
 
-* Annotation based IOC(e.g. @Component, @Service, @Autowired)
+* Annotation based IOC(e.g. @Component, @Service, @Autowired), annotations can be found [here](https://github.com/123RuiHuang/mySpring/tree/master/mySpring/src/main/java/com/ray/mySpring/annotation)
 * Transactional management(@Transactional)
 
 ### How it is implemented
